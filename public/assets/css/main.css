@@ -1,0 +1,8 @@
+#__layout{
+    margin-top:50px;
+}
+textarea{
+    resize:vertical;
+    min-height:75px;
+    max-height:300px;
+}

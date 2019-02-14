@@ -1,0 +1,23 @@
+{
+    "name": "nexusdeveloper/beejee-test-task",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Artem Mikhailov",
+            "email": "artem.nexus94@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "catfan/medoo": "^1.6"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "\\": "src/"
+        }
+    }
+}
